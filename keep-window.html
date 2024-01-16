@@ -1,21 +1,11 @@
 <html>
 <head>
   <title>Note</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-70i_9l2qQMJbjdG4B4puhg' ...">
 </head>
 
 <body>
-  <script type="module">
-    import { h, render } from 'https://esm.sh/preact';
-    import htm from 'https://esm.sh/htm';
-
-    // Initialize htm with Preact
-    const html = htm.bind(h);
-
-    function App(props) {
-      return html`<h1>Hello ${props.name}!</h1>`;
-    }
-
-    render(html`<${App} name="World" />`, document.body);
+  <script type="module" src="https://raw.githubusercontent.com/otaree/js-scripts/main/keep-window-script.js"  nonce="70i_9l2qQMJbjdG4B4puhg">
   </script>
 </body>
 
